@@ -1,20 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rubik Bubbles', cursive;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #fffffe;
   display: grid;
   align-items: center;
   justify-content: center;
 }
 
 h1 {
-  color: white;
+  color: #272343;
   text-align: center;
 }
 
@@ -25,23 +28,26 @@ h1 {
   text-align: center;
   height: 400px;
   width: 400px;
-  background-color: gray;
+  background-color: #e3f6f5;
 }
 
 .grid-box {
-  border: 1px solid blue;
+  border: 1px solid #2d334a;
   color: red;
   font-size: 50px;
   display: grid;
-  grid-template-rows: 1fr 0.3fr;
+  grid-template-rows: 1fr 0.2fr;
 }
 
 .game-board-button {
-  background-color: white;
+  border-radius: 10px;
+  background-color: #ffd803;
+  color: #272343;
   grid-row: 2 / 3;
 }
 
 .start-game-button,
 .clear-board-button {
   margin-top: 25px;
+  border-radius: 10px;
 }
